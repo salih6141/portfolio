@@ -16,6 +16,7 @@ body {
 }
 
 section{
+    margin-top: 50px;
     font-family: googleItimFont;
     text-align: center;
     font-size: 20px;
@@ -122,3 +123,4 @@ label,input,select{
     color: red;
     margin-top: 250px;
 }
+
