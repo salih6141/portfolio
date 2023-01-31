@@ -64,8 +64,9 @@ section{
     text-decoration: none;
 }
 .site-nav ul li a:hover{
-    border-radius: 10%;
-    background-color: #009cab;
+    transition: .3s ease-in;
+    color: #009cab;
+    text-decoration: underline;
 }
 .active{
     font-weight: 600;
