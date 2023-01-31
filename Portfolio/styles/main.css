@@ -101,3 +101,8 @@ label,input,select{
     display: inline-block;
     margin: 10px 0;
 }
+
+.disclaimer {
+    color: red;
+    margin-top: 250px;
+}
