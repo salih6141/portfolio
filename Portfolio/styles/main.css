@@ -5,6 +5,7 @@
 
 body {
     background-image: url(/images/background.webp);
+    background-size: cover;
     width: 1200px;
     margin: 40px auto;
     padding: 40px;
@@ -124,3 +125,19 @@ label,input,select{
     margin-top: 250px;
 }
 
+.link a{
+    color: black;
+    text-decoration: none;
+}
+.link a:hover{
+    -webkit-transition: .3s;
+    transition:.3s;
+    text-decoration: underline;
+    color: #009cab;
+}
+
+.screenshots img{
+    width: 700px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
