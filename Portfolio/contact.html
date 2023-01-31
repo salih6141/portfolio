@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="site-nav">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/overmij.html">Over mij</a></li>
+            <li><a href="/project.html">Projecten</a></li>
+            <li><a href="/contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="contactformulier">
+        <h1>Contactformulier</h1>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                <label for="firstName">Voornaam</label>
+                <input type="text" name="Voornaam" id="firstName "><br>
+                <label for="lastName">Achternaam</label>
+                <input type="text" name="Achternaam" id="lastName"><br>
+                <label for="email">E-mail</label>
+                <input type="email" name="E-mail" id="email">
+            </fieldset>
+            <fieldset>
+                <legend>Reden voor contact</legend>
+                <label for="questionType">Reden</label>
+                <select name="Type-vraag" id="questionType">
+                    <option value="Algemeen">Algemene vraag</option>
+                    <option value="Werkaanbod">Werk aanbieding</option>
+                    <option value="Andere">Andere reden</option>
+                </select><br>
+                <label for="question">Uw vraag</label>
+                <textarea name="Vraag" id="question" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="submit" value="verstuur">
+        </form>
+    </section>
+</body>
+</html>
