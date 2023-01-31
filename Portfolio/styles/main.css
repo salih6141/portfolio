@@ -102,6 +102,17 @@ label,input,select{
     margin: 10px 0;
 }
 
+
+.projecten figure{
+    display: inline-block; /*zodat beide elementen worden gezien als block elementen waardoor ze naast elkaar komen te staan in plaats van onder elkaar */
+}
+.projecten img{
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
 .disclaimer {
     color: red;
     margin-top: 250px;
