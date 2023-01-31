@@ -112,6 +112,11 @@ label,input,select{
     border-radius: 30px;
     border: 2px solid black;
 }
+.projecten img:hover{
+        -webkit-transition:.3s;
+        transition:.3s;
+        box-shadow: 10px 10px 5px #009cab;
+}
 
 .disclaimer {
     color: red;
